@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-template-columns: 200px fit-content(300px) fit-content(300px);
+    grid-template-rows: 100px 200px 250px 250px;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#cover {
+    grid-row: 2;
+}
+
+#title {
+    grid-column: span 3;
+    grid-row: 1;
+    text-align: center;
+    background-color: goldenrod;
+}
+
+#singles {
+    grid-row: span 3;
+    background-color: antiquewhite;
+}
+
+#general-info > h2, #tracklist > h2, #tracklist > h3, #singles > h2 {
+    text-align: center;
+}
+
+#general-info {
+    grid-column: 2;
+    grid-row: span 3;
+    background-color: beige;
+}
+
+#tracklist {
+    grid-column: 3;
+    grid-row: span 3;
+    background-color: antiquewhite;
+}
