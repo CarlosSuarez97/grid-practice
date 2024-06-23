@@ -5,6 +5,7 @@
     grid-template-columns: 200px fit-content(300px) fit-content(300px);
     grid-template-rows: 100px 200px 250px 250px;
     font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
 }
 
 img {
