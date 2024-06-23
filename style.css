@@ -62,7 +62,7 @@ img {
     }
     
     #general-info {
-        grid-row: 2;
+        grid-row: 2, span 1;
         grid-column: 2;
     }
 
@@ -72,7 +72,7 @@ img {
     }
 
     #singles {
-        grid-row: 3, span 1;
+        grid-row: 3;
         grid-column: 2;
     }
 
